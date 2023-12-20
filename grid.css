@@ -1,0 +1,92 @@
+
+
+.mt-5 {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'sidebar sidebar content1 content1 content1 content1'
+      'sidebar sidebar content2 content2 content3 content3'
+      'footer footer footer footer footer footer';
+    gap: 20px;
+    background-color: #36454f;
+    padding: 40px;
+  }
+
+  /* .mt-5 > div {
+    background-color: rgba(235, 55, 55, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+.hd{
+    background:linear-gradient(to right,#764ba2,#667eea);
+   text-align: center;
+    padding: 20px 0;
+    color: #ffff;
+    border: 3px solid black;
+    box-shadow: 2px 3px 3px 3px rgb(39, 38, 38);
+}
+
+.sd{
+    background:linear-gradient(to right,#aff2d8,#11998e);
+   text-align: center;
+    padding:20px 0;
+    color: #ffff;
+    height: 300px;
+    border: 2px solid black;
+    box-shadow: 2px 3px 3px 3px rgb(39, 38, 38);
+}
+.ct-1{
+    background:linear-gradient(to right,#7a8fd3,#45cde9);
+   text-align: center;
+    padding:20px 0;
+    color: #ffff;
+    border: 3px solid black;
+    box-shadow: 2px 3px 3px 3px rgb(39, 38, 38);
+}
+.ct-2{
+    background:linear-gradient(to right,#7a8fd3,#45cde9);
+   text-align: center;
+    padding:20px 0;
+    color: #ffff; 
+    border: 3px solid black;
+    box-shadow: 2px 3px 3px 3px rgb(39, 38, 38);
+}
+
+.ct-3{
+    background:linear-gradient(to right,#7a8fd3,#45cde9);
+   text-align: center;
+    padding:20px 0;
+    color: #ffff; 
+    border: 3px solid black;
+    box-shadow: 2px 3px 3px 3px rgb(39, 38, 38);
+}
+
+.ft{
+    background:linear-gradient(to right,#764ba2,#667eea);
+   text-align: center;
+    padding: 20px 0;
+    color: #ffff;
+    border: 3px solid black;
+    box-shadow: 2px 3px 3px 3px rgb(39, 38, 38);
+}
+
+
+  .item1 { grid-area: header; }
+.item2 { grid-area: sidebar; }
+.item3 { grid-area: content1; }
+.item4 { grid-area: content2; }
+.item5 { grid-area: content3; }
+.item6 { grid-area: footer; }
+
+.mt-4{
+    padding-top: 200px;
+}
+
+/* THE fouth assignment design starts here */
+
+.bg-success{
+    height: 300px;
+}
+
+

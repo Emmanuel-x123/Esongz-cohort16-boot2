@@ -1,0 +1,9 @@
+.col-3{
+    height: 15vh;
+   
+    line-height: 80px;
+  }
+  *{
+    text-align: center;
+    color: white;
+  }
